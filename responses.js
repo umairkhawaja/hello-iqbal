@@ -5,22 +5,21 @@
    and keep your earnings halal. Mixture of Urdu + English.
    ============================================================ */
 
-// Fake "reasoning" stages shown during the artificial loading.
+// "Reasoning" stages shown during loading — deliberately legit-sounding,
+// so the app reads as a real, sophisticated AI product right up until the answer.
 const THINKING_STAGES = [
-  "Spinning up 9 trillion parameters of disappointment…",
-  "Consulting the collected works of every teacher who tried harder than you…",
-  "Cross-referencing your question against the Library of Things You Could Have Googled…",
-  "Running deep-reasoning chain-of-thought (it concluded: think for yourself)…",
-  "Aligning response with the Khudi Engine™ for maximum self-reliance…",
-  "Reticulating splines of wisdom…",
-  "Asking 47 expert sub-agents; all 47 sighed…",
-  "Checking whether your earnings are halal (inconclusive)…",
-  "Composing verse worthy of your mediocrity…",
-  "Loading 7,000 years of human knowledge to gently roast you…",
-  "Verifying you actually read the textbook (you did not)…",
-  "Calibrating tone: somewhere between 'eagle' and 'unimpressed elder'…",
-  "Distilling the answer that was inside you the whole time…",
-  "Almost done. Building suspense for a response you will not like…",
+  "Understanding your request…",
+  "Analysing context and learning objectives…",
+  "Reviewing against curriculum standards…",
+  "Retrieving relevant pedagogical models…",
+  "Generating response…",
+  "Cross-checking for accuracy…",
+  "Applying your rubric…",
+  "Drafting personalised feedback…",
+  "Structuring the lesson plan…",
+  "Refining tone and clarity…",
+  "Running quality and safety checks…",
+  "Finalising response…",
 ];
 
 // The actual "answers." Each may have urdu (RTL couplet), text, and a signature.

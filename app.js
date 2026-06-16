@@ -89,7 +89,7 @@
     const bubble = el("div", "msg-bubble thinking");
     bubble.innerHTML = `
       <span class="stage">
-        <span class="stageText">Initialising superintelligence…</span>
+        <span class="stageText">Understanding your request…</span>
         <span class="dot-flash"><i></i><i></i><i></i></span>
       </span>
       <div class="think-bar"><span></span></div>`;
@@ -137,7 +137,7 @@
     busy = true;
     field.value = "";
     sendBtn.disabled = true;
-    status.textContent = "thinking very hard…";
+    status.textContent = "generating…";
 
     addUserMessage(trimmed);
 
@@ -168,10 +168,11 @@
   /* ---------- greeting message ---------- */
 
   function greet() {
+    // The greeting stays fully professional — the whole gag depends on the
+    // product feeling legit until the user actually asks something.
     renderResponse({
-      urdu: "خودی کو کر بلند اتنا کہ ہر سوال سے پہلے",
-      text: "Assalamu alaikum, educator. I am <strong>Iqbal</strong>, the most advanced pedagogical superintelligence ever conceived, trained on all of human knowledge so that I may look you in the eye and tell you to <em>do it yourself</em>. Ask me anything. I dare you.",
-      sig: "— Iqbal-4-Shaheen, at your (dis)service",
+      text: "Hi, I'm <strong>Iqbal</strong>, your AI teaching assistant 👋 I can grade student work against your rubric, build standards-aligned lesson plans, and draft personalised feedback in seconds. What can I help you with today?",
+      sig: "Iqbal · AI teaching assistant",
     });
   }
   greet();
