@@ -181,11 +181,13 @@
 
   const rotator = document.getElementById("rotator");
   const PHRASES = [
-    "evenings back",
-    "weekends back",
-    "time back",
-    "energy back",
-    "focus back",
+    "teach every student better",
+    "grade in minutes, not hours",
+    "plan more engaging lessons",
+    "give richer, faster feedback",
+    "reach students who fall behind",
+    "spend less time on busywork",
+    "become a better educator",
   ];
   let rIdx = 0;
   if (rotator) {
