@@ -181,12 +181,11 @@
 
   const rotator = document.getElementById("rotator");
   const PHRASES = [
-    "make you a better teacher",
-    "tell you to use your brain",
-    "answer in poetry you won't get",
-    "remind you to earn halal",
-    "do absolutely none of your work",
-    "humble you, eloquently",
+    "evenings back",
+    "weekends back",
+    "time back",
+    "energy back",
+    "focus back",
   ];
   let rIdx = 0;
   if (rotator) {
