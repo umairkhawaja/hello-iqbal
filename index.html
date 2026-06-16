@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Iqbal — The All-Knowing AI for Educators</title>
+  <meta name="description" content="Iqbal is the world's most advanced* pedagogical superintelligence, lovingly trained on 7,000 years of human knowledge to tell you to figure it out yourself." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,500&family=Inter:wght@300;400;500;600;700&family=Amiri:ital@0;1&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>🦅</text></svg>" />
+</head>
+<body>
+  <!-- Ambient background -->
+  <div class="aurora" aria-hidden="true">
+    <span class="orb orb-1"></span>
+    <span class="orb orb-2"></span>
+    <span class="orb orb-3"></span>
+  </div>
+
+  <!-- Navbar -->
+  <header class="nav">
+    <a class="brand" href="#top">
+      <span class="brand-mark">ﷳ</span>
+      <span class="brand-name">Iqbal<span class="brand-dot">.</span>ai</span>
+    </a>
+    <nav class="nav-links">
+      <a href="#capabilities">Capabilities</a>
+      <a href="#trust">Trust &amp; Safety</a>
+      <a href="#pricing">Pricing</a>
+      <a class="nav-cta" href="#demo">Launch Demo</a>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <main id="top">
+    <section class="hero">
+      <div class="badge">
+        <span class="badge-dot"></span>
+        Now with 0.0 hallucinations*
+      </div>
+      <h1 class="hero-title">
+        Meet <span class="grad">Iqbal</span>.<br />
+        The superintelligence built to<br />
+        <span class="rotator" id="rotator">make you a better teacher</span>.
+      </h1>
+      <p class="hero-sub">
+        The all-knowing AI teaching companion, trained on every lesson plan, rubric, and
+        existential sigh in recorded history. Ask Iqbal anything about your classroom — and
+        receive a response of unparalleled depth, eloquence, and emotional damage.
+      </p>
+      <div class="hero-cta">
+        <a class="btn btn-primary" href="#demo">Try the live demo →</a>
+        <a class="btn btn-ghost" href="#capabilities">Watch the* keynote</a>
+      </div>
+      <p class="hero-fine">No credit card required. No dignity returned.</p>
+
+      <div class="logos">
+        <span>Trusted by educators at</span>
+        <div class="logo-row">
+          <span>The Institute of Self-Reliance</span>
+          <span>Khudi Academy</span>
+          <span>Bāl-e-Jibrīl High</span>
+          <span>University of Just Google It</span>
+        </div>
+      </div>
+    </section>
+
+    <!-- DEMO -->
+    <section class="demo" id="demo">
+      <div class="demo-head">
+        <h2>The live demo</h2>
+        <p>Go on. Ask the smartest entity ever assembled. It is <em>delighted</em> to help.</p>
+      </div>
+
+      <div class="chat-shell">
+        <div class="chat-titlebar">
+          <div class="dots"><i></i><i></i><i></i></div>
+          <div class="chat-model">
+            <span class="pulse"></span>
+            iqbal-4-shaheen <span class="muted">· superintelligence preview</span>
+          </div>
+          <div class="chat-status" id="chatStatus">online</div>
+        </div>
+
+        <div class="chat-log" id="chatLog" aria-live="polite">
+          <!-- messages injected here -->
+        </div>
+
+        <form class="chat-input" id="chatForm" autocomplete="off">
+          <input
+            id="chatField"
+            type="text"
+            placeholder="Ask Iqbal about grading, lesson plans, your career choices…"
+            aria-label="Message Iqbal"
+          />
+          <button type="submit" id="sendBtn" aria-label="Send">
+            <svg viewBox="0 0 24 24" width="20" height="20"><path d="M3 11l18-8-8 18-2-7-8-3z" fill="currentColor"/></svg>
+          </button>
+        </form>
+        <div class="chat-suggestions" id="suggestions"></div>
+      </div>
+      <p class="demo-disclaimer">
+        Iqbal may produce confident, beautifully-worded contempt. By using this demo you agree
+        that your feelings are not Iqbal's department.
+      </p>
+    </section>
+
+    <!-- CAPABILITIES -->
+    <section class="features" id="capabilities">
+      <h2 class="section-title">An intelligence of <span class="grad">infinite</span> patience*</h2>
+      <p class="section-sub">*patience not included</p>
+      <div class="grid">
+        <article class="card">
+          <div class="card-icon">📝</div>
+          <h3>Instant Grading</h3>
+          <p>Iqbal grades 10,000 papers per second and assigns every single one to <em>you</em> to grade, because building character is also part of education.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">📚</div>
+          <h3>Lesson Planning</h3>
+          <p>Describe your topic and Iqbal will compose a sublime, multi-week curriculum, then ask why you didn't think of it yourself in the first place.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🧠</div>
+          <h3>Socratic Method™</h3>
+          <p>Why give you the answer when Iqbal can answer your question with a poem questioning your entire intellectual journey?</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">⚡</div>
+          <h3>Real-Time Feedback</h3>
+          <p>Receive immediate, personalised, devastatingly accurate feedback on your competence, your effort, and your halal earnings.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🌙</div>
+          <h3>24/7 Availability</h3>
+          <p>Iqbal never sleeps, never rests, and never stops being disappointed in you. Subscription includes guilt at no extra cost.</p>
+        </article>
+        <article class="card">
+          <div class="card-icon">🦅</div>
+          <h3>Khudi Engine™</h3>
+          <p>Our proprietary self-reliance model gently reminds you that the answer was always within you, and that you should have used your brain.</p>
+        </article>
+      </div>
+    </section>
+
+    <!-- TRUST -->
+    <section class="trust" id="trust">
+      <div class="stats">
+        <div class="stat"><b data-count="∞">0</b><span>questions answered with another question</span></div>
+        <div class="stat"><b data-count="100%">0</b><span>of users told to think for themselves</span></div>
+        <div class="stat"><b data-count="7000">0</b><span>years of wisdom, weaponised</span></div>
+        <div class="stat"><b data-count="0">0</b><span>actual answers provided</span></div>
+      </div>
+    </section>
+
+    <!-- PRICING -->
+    <section class="pricing" id="pricing">
+      <h2 class="section-title">Simple, transparent* pricing</h2>
+      <div class="plans">
+        <div class="plan">
+          <h3>Mureed</h3>
+          <p class="price">Free</p>
+          <p class="plan-sub">For the spiritually lost</p>
+          <ul>
+            <li>✓ Unlimited insults</li>
+            <li>✓ Poetry you won't understand</li>
+            <li>✓ Told to use your brain (basic)</li>
+            <li>✗ Actual help</li>
+          </ul>
+          <a class="btn btn-ghost full" href="#demo">Start being humbled</a>
+        </div>
+        <div class="plan plan-featured">
+          <div class="ribbon">Most Humbling</div>
+          <h3>Shaheen</h3>
+          <p class="price">$99<span>/mo</span></p>
+          <p class="plan-sub">For serious educators</p>
+          <ul>
+            <li>✓ Everything in Mureed</li>
+            <li>✓ Premium contempt</li>
+            <li>✓ Told to use your brain (advanced)</li>
+            <li>✓ Halal earning reminders</li>
+            <li>✗ Actual help (still)</li>
+          </ul>
+          <a class="btn btn-primary full" href="#demo">Soar, allegedly</a>
+        </div>
+        <div class="plan">
+          <h3>Khudi Enterprise</h3>
+          <p class="price">Call us</p>
+          <p class="plan-sub">If you have to ask…</p>
+          <ul>
+            <li>✓ Everything, plus a sigh</li>
+            <li>✓ Dedicated disappointment manager</li>
+            <li>✓ On-prem existential crisis</li>
+            <li>✗ Actual help (premium ✗)</li>
+          </ul>
+          <a class="btn btn-ghost full" href="#demo">Contact sales*</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="footer-top">
+      <span class="brand-mark">ﷳ</span>
+      <p>Iqbal.ai — Khud ko kar buland itna ki har shikwā se pehle, AI khud poochay "tujhe answer chahiye kyun?"</p>
+    </div>
+    <p class="footer-fine">
+      A loving parody of <a href="https://hellorumi.ai" target="_blank" rel="noopener">hellorumi.ai</a>.
+      Not affiliated, not endorsed, not sorry. No real AI was harmed (or used) in the making of this site.
+      All wisdom delivered is fictional and possibly hurtful.
+    </p>
+  </footer>
+
+  <script src="responses.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
