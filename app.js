@@ -177,6 +177,35 @@
   }
   greet();
 
+  /* ---------- trusted-by logos (Pakistani institutions) ---------- */
+
+  const INSTITUTIONS = [
+    { name: "LUMS", domain: "lums.edu.pk" },
+    { name: "NUST", domain: "nust.edu.pk" },
+    { name: "Beaconhouse", domain: "beaconhouse.net" },
+    { name: "The City School", domain: "thecityschool.edu.pk" },
+    { name: "Aitchison College", domain: "aitchison.edu.pk" },
+    { name: "Lahore Grammar School", domain: "lgs.edu.pk" },
+  ];
+
+  const logoRow = document.getElementById("logoRow");
+  if (logoRow) {
+    INSTITUTIONS.forEach((inst) => {
+      const item = el("div", "logo-item");
+      const img = document.createElement("img");
+      img.className = "logo-img";
+      img.alt = inst.name + " logo";
+      img.loading = "lazy";
+      img.src = "https://www.google.com/s2/favicons?sz=128&domain=" + inst.domain;
+      // If the logo can't load, hide the broken image — the name still shows.
+      img.addEventListener("error", () => { img.style.display = "none"; });
+      const name = el("span", "logo-name", inst.name);
+      item.appendChild(img);
+      item.appendChild(name);
+      logoRow.appendChild(item);
+    });
+  }
+
   /* ---------- hero rotator ---------- */
 
   const rotator = document.getElementById("rotator");

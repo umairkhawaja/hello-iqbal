@@ -101,7 +101,15 @@ a { color: inherit; text-decoration: none; }
 .hero-fine { color: var(--faint); font-size: 0.82rem; }
 
 .logos { margin-top: 56px; color: var(--faint); font-size: 0.8rem; }
-.logo-row { display: flex; flex-wrap: wrap; gap: 26px; justify-content: center; margin-top: 14px; font-family: "Cormorant Garamond", serif; font-size: 1.15rem; color: var(--muted); font-style: italic; }
+.logo-row { display: flex; flex-wrap: wrap; gap: 14px 30px; justify-content: center; align-items: center; margin-top: 18px; }
+.logo-item {
+  display: inline-flex; align-items: center; gap: 9px;
+  color: var(--muted); font-size: 0.95rem; font-weight: 500;
+  opacity: 0.78; filter: grayscale(0.3); transition: opacity .2s, filter .2s;
+}
+.logo-item:hover { opacity: 1; filter: none; }
+.logo-img { width: 22px; height: 22px; border-radius: 5px; object-fit: contain; background: rgba(255,255,255,.06); padding: 2px; }
+.logo-name { white-space: nowrap; }
 
 /* ---- Section shared ---- */
 section { scroll-margin-top: 80px; }
