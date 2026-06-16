@@ -57,11 +57,8 @@ a { color: inherit; text-decoration: none; }
   backdrop-filter: blur(12px);
 }
 .brand { display: flex; align-items: center; gap: 10px; font-weight: 700; font-size: 1.15rem; }
-.brand-mark {
-  font-family: "Amiri", serif; font-size: 1.7rem; line-height: 1;
-  background: linear-gradient(135deg, var(--gold-2), var(--violet));
-  -webkit-background-clip: text; background-clip: text; color: transparent;
-}
+.brand-mark { display: inline-flex; align-items: center; line-height: 1; }
+.brand-mark svg { width: 1.85rem; height: 1.85rem; display: block; }
 .brand-dot { color: var(--gold); }
 .nav-links { display: flex; align-items: center; gap: 28px; font-size: 0.92rem; color: var(--muted); }
 .nav-links a:hover { color: var(--text); }
